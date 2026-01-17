@@ -55,3 +55,8 @@ int main() {
 
     return 0;
 }
+
+
+// Depth = log(n)
+// T(n) = 3T(n/2) + nLog(n)
+// final complexity = O(n^(log(base: 2)3))
